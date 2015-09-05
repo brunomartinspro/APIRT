@@ -91,7 +91,7 @@ class RequestController extends Controller {
 		$sum = 0.0;
 		$media = 0.0;
 		$NumberRequests = $request->numberOfRequests;
-		$url = $request->url;
+		$url = str_contains($request->url, 'http') ? $request->url : 'http://'.$request->url;
 		$stopwatchTime = new Stopwatch();
 		$stopwatchTime-> start('totalRequestTime');
 		for ($i = 0; $i < $NumberRequests; $i++) 
@@ -116,7 +116,7 @@ class RequestController extends Controller {
 		$sum = 0.0;
 		$media = 0.0;
 		$NumberRequests = $request->numberOfRequests;
-		$url = $request->url;
+		$url = str_contains($request->url, 'http') ? $request->url : 'http://'.$request->url;
 		$body =  $request->body;
 		$requestType = $request->type;
 
@@ -144,7 +144,7 @@ class RequestController extends Controller {
 		$sum = 0.0;
 		$media = 0.0;
 		$NumberRequests = $request->numberOfRequests;
-		$url = $request->url;
+		$url = str_contains($request->url, 'http') ? $request->url : 'http://'.$request->url;
 		$body =  $request->body;
 		$requestType = $request->type;
 
@@ -171,7 +171,7 @@ class RequestController extends Controller {
 		$sum = 0.0;
 		$media = 0.0;
 		$NumberRequests = $request->numberOfRequests;
-		$url = $request->url;
+		$url = str_contains($request->url, 'http') ? $request->url : 'http://'.$request->url;
 		$stopwatchTime = new Stopwatch();
 		$stopwatchTime-> start('totalRequestTime');
 		for ($i = 0; $i < $NumberRequests; $i++) 
