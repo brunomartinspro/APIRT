@@ -18,6 +18,7 @@
 				{!! Form::close() !!}
 		    @if (isset($TotalRequests))
 		   
+		   	<h3>Number of requests: 10</h3>
 		    <h3>Average time: {{ $media}}</h3>
 		    <h3>Total request time: {{ $eventTime}}</h3>
 
