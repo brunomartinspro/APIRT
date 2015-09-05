@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>APIRT - Home</title>
+       <title>APIRT</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="Assets/css/bootstrap.css" />
-
-       
+	<meta property="og:image" content="http://apirt.com/Images/APIRT.png">
+	<meta name="author" content="Bruno Martins">
+	<meta name="description" content="Your API Response Tester">
     </head>
     <body>
         <nav class="navbar navbar-default">
