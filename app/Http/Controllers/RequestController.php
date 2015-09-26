@@ -177,7 +177,7 @@ class RequestController extends Controller {
 		 	$TotalRequests[$i] = $this->formatMilliseconds($output);
 		}
 		$eventTime = $stopwatchTime->stop('totalRequestTime');
-		$eventTime =  $this->formatMilliseconds($eventTime->getDuration());
+		$eventTime =  $this->formatMilliseconds($eventTime->getDuration()).'s';
 		$media = $sum / 10;
 		$media = $this->formatMilliseconds($media).'s';
 		//dd($TotalRequests);
