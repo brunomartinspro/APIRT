@@ -40,8 +40,9 @@
 	
     <script src="Assets/js/jquery-1.11.3.js"></script>
     <script src="Assets/js/bootstrap.js"></script>
-
-
+	<script src="Assets/Chart.js-master/Chart.js"></script>
+	<script src="Assets/Chart.js-master/src/Chart.Line.js"></script>
+	@yield('scripts')
     </body>
    
 </html>

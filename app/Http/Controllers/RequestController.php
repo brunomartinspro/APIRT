@@ -97,7 +97,7 @@ class RequestController extends Controller {
 		{ 
 		 	$output = $this->StartGetRequest($url);
 		 	$sum += $output;
-		 	$TotalRequests[$i] = $this->formatMilliseconds($output).'s';
+		 	$TotalRequests[$i] = $this->formatMilliseconds($output);
 		}
 		$eventTime = $stopwatchTime->stop('totalRequestTime');
 		$eventTime =  $this->formatMilliseconds($eventTime->getDuration()).'s';
@@ -124,7 +124,7 @@ class RequestController extends Controller {
 		{ 
 		 	$output = $this->StartPostRequest($url, $body, $requestType);
 		 	$sum += $output;
-		 	$TotalRequests[$i] = $this->formatMilliseconds($output).'s';
+		 	$TotalRequests[$i] = $this->formatMilliseconds($output);
 		}
 		$eventTime = $stopwatchTime->stop('totalRequestTime');
 		$eventTime =  $this->formatMilliseconds($eventTime->getDuration()).'s';
@@ -151,7 +151,7 @@ class RequestController extends Controller {
 		{ 
 		 	$output = $this->StartPutRequest($url, $body, $requestType);
 		 	$sum += $output;
-		 	$TotalRequests[$i] = $this->formatMilliseconds($output).'s';
+		 	$TotalRequests[$i] = $this->formatMilliseconds($output);
 		}
 		$eventTime = $stopwatchTime->stop('totalRequestTime');
 		$eventTime =  $this->formatMilliseconds($eventTime->getDuration()).'s';
@@ -174,10 +174,10 @@ class RequestController extends Controller {
 		{ 
 		 	$output = $this->StartDeleteRequest($url);
 		 	$sum += $output;
-		 	$TotalRequests[$i] = $this->formatMilliseconds($output).'s';
+		 	$TotalRequests[$i] = $this->formatMilliseconds($output);
 		}
 		$eventTime = $stopwatchTime->stop('totalRequestTime');
-		$eventTime =  $this->formatMilliseconds($eventTime->getDuration()).'s';
+		$eventTime =  $this->formatMilliseconds($eventTime->getDuration());
 		$media = $sum / 10;
 		$media = $this->formatMilliseconds($media).'s';
 		//dd($TotalRequests);

@@ -56,26 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
+			"file": "resources/views/Requests/delete.blade.php",
 			"settings":
 			{
-				"buffer_size": 1013,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/RequestController.php",
-			"settings":
-			{
-				"buffer_size": 6974,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Middleware/VerifyCsrfToken.php",
-			"settings":
-			{
-				"buffer_size": 347,
+				"buffer_size": 3336,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,39 +67,7 @@
 			"file": "resources/views/Requests/get.blade.php",
 			"settings":
 			{
-				"buffer_size": 1333,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Requests/delete.blade.php",
-			"settings":
-			{
-				"buffer_size": 1340,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Requests/PostForm.blade.php",
-			"settings":
-			{
-				"buffer_size": 753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Requests/put.blade.php",
-			"settings":
-			{
-				"buffer_size": 1335,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Requests/GetForm.blade.php",
-			"settings":
-			{
-				"buffer_size": 449,
+				"buffer_size": 3328,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,26 +75,39 @@
 			"file": "resources/views/Requests/post.blade.php",
 			"settings":
 			{
-				"buffer_size": 1337,
+				"buffer_size": 3333,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "@extends('welcome')\n    \n    @section('navItems')\n       <ul class=\"nav navbar-nav\">\n                    <li class=\"\"><a href=\"{{ action('RequestController@get') }}\">Get</a></li>\n                    <li class=\"\"><a href=\"{{ action('RequestController@post') }}\">Post</a></li>\n                    <li class=\"\"><a href=\"{{ action('RequestController@put') }}\">Put</a></li>\n                    <li class=\"\"><a href=\"{{ action('RequestController@delete') }}\">Delete</a></li>\n                </ul>\n\n                \n    @stop\n	\n	@section('content')\n		 <div class=\"jumbotron text-center\" style=\"background-color: #FFFFFF;\">\n        <h1>Welcome to APIRT</h1>\n        <p>Your API Response Tester</p>\n    </div>\n	@stop\n	",
-			"file": "resources/views/Requests/welcome.blade.php",
-			"file_size": 691,
-			"file_write_time": 130857844956218783,
+			"file": "resources/views/Requests/put.blade.php",
 			"settings":
 			{
-				"buffer_size": 709,
+				"buffer_size": 3331,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "app/Http/Controllers/RequestController.php",
 			"settings":
 			{
-				"buffer_size": 57,
+				"buffer_size": 6914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Request.php",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 1806,
 				"line_ending": "Unix"
 			}
 		}
@@ -154,10 +119,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "insta",
+		"height": 286.0,
+		"last_filter": "remove pa",
 		"selected_items":
 		[
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -225,26 +194,39 @@
 	"expanded_folders":
 	[
 		"/C/VirtualHosts/APIRT",
-		"/C/VirtualHosts/APIRT/resources/assets",
+		"/C/VirtualHosts/APIRT/app",
+		"/C/VirtualHosts/APIRT/app/Http",
+		"/C/VirtualHosts/APIRT/app/Http/Controllers",
+		"/C/VirtualHosts/APIRT/public",
+		"/C/VirtualHosts/APIRT/public/Assets",
 		"/C/VirtualHosts/APIRT/resources/views",
 		"/C/VirtualHosts/APIRT/resources/views/Requests"
 	],
 	"file_history":
 	[
-		"/C/Users/light/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/xampp/php/php.ini",
-		"/C/VirtualHosts/APIRT/config/app.php",
-		"/C/VirtualHosts/APIRT/app/Http/routes.php",
-		"/C/VirtualHosts/APIRT/resources/views/Requests/form.blade.php",
-		"/C/VirtualHosts/APIRT/resources/views/Requests/get.blade.php",
-		"/C/VirtualHosts/APIRT/composer.json",
-		"/C/Users/light/Desktop/APIRT/APIRT/APIRT/Get.aspx",
+		"/C/VirtualHosts/APIRT/sftp-config.json",
 		"/C/VirtualHosts/APIRT/app/Http/Controllers/RequestController.php",
+		"/C/VirtualHosts/APIRT/resources/views/Requests/form.blade.php",
+		"/C/VirtualHosts/APIRT/resources/views/Requests/GetForm.blade.php",
+		"/C/VirtualHosts/APIRT/resources/views/Requests/PostForm.blade.php",
 		"/C/VirtualHosts/APIRT/resources/views/Requests/put.blade.php",
+		"/C/Users/light/Desktop/Realidade/src/PostCreator.html",
+		"/C/Users/light/Dropbox/iKlive Bruno/Info/Assinatura Email.html",
+		"/C/VirtualHosts/APIRT/resources/views/Requests/get.blade.php",
 		"/C/VirtualHosts/APIRT/resources/views/Requests/post.blade.php",
 		"/C/VirtualHosts/APIRT/resources/views/Requests/delete.blade.php",
+		"/C/Users/light/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/VirtualHosts/APIRT/resources/views/welcome.blade.php",
+		"/C/VirtualHosts/APIRT/README.md",
+		"/C/VirtualHosts/APIRT/public/Assets/css/bootstrap.css",
+		"/C/VirtualHosts/APIRT/.gitignore",
+		"/C/VirtualHosts/APIRT/app/Http/routes.php",
+		"/C/VirtualHosts/APIRT/app/Http/Middleware/VerifyCsrfToken.php",
 		"/C/VirtualHosts/APIRT/resources/views/Requests/welcome.blade.php",
+		"/C/xampp/php/php.ini",
+		"/C/VirtualHosts/APIRT/config/app.php",
+		"/C/VirtualHosts/APIRT/composer.json",
+		"/C/Users/light/Desktop/APIRT/APIRT/APIRT/Get.aspx",
 		"/C/VirtualHosts/APIRT/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/C/VirtualHosts/APIRT/app/Request.php",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -260,7 +242,6 @@
 		"/C/VirtualHosts/Realidade/resources/views/Articles/TagErro.blade.php",
 		"/C/VirtualHosts/Realidade/resources/views/Articles/tutoriais.blade.php",
 		"/C/VirtualHosts/Realidade/resources/views/Articles/welcome.blade.php",
-		"/C/Users/light/Desktop/Realidade/src/PostCreator.html",
 		"/C/VirtualHosts/Realidade/resources/views/errors/404.blade.php",
 		"/C/VirtualHosts/Realidade/resources/views/Articles/ArticleErro.blade.php",
 		"/C/Users/light/Downloads/articles (1).sql",
@@ -350,19 +331,11 @@
 		"/C/VirtualHosts/BrunoMartins/resources/views/Articles/create.blade.php",
 		"/C/VirtualHosts/BrunoMartins/app/Http/Requests/ArticleRequest.php",
 		"/C/VirtualHosts/BrunoMartins/app/Article.php",
-		"/C/VirtualHosts/BrunoMartins/database/migrations/2015_05_16_151659_create_articles_table.php",
-		"/C/Users/Bruno/Downloads/users (2).sql",
-		"/C/Users/Bruno/Downloads/tags (1).sql",
-		"/C/Users/Bruno/Downloads/articles (2).sql",
-		"/C/Users/Bruno/Downloads/article_tag (1).sql",
-		"/C/VirtualHosts/BrunoMartins/resources/views/Articles/welcome.blade.php",
-		"/C/Users/Bruno/Downloads/brunomartins.sql",
-		"/C/Users/Bruno/Downloads/users (1).sql",
-		"/C/Users/Bruno/Downloads/htaccess"
+		"/C/VirtualHosts/BrunoMartins/database/migrations/2015_05_16_151659_create_articles_table.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -377,6 +350,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"};\n",
+			".footer",
+			"footer",
 			"m",
 			"RequestPost",
 			"timeout",
@@ -458,24 +434,57 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "resources/views/Requests/delete.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1013,
+						"buffer_size": 3336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								961,
-								961
+								950,
+								950
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/Requests/get.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								943
 							]
 						],
 						"settings":
@@ -489,39 +498,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/RequestController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6974,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6561,
-								6561
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1991.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -529,19 +505,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/Http/Middleware/VerifyCsrfToken.php",
+					"file": "resources/views/Requests/post.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 347,
+						"buffer_size": 3333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								978,
+								3333
 							]
 						],
 						"settings":
@@ -554,7 +530,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1332.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -562,119 +538,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "resources/views/Requests/get.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								852,
-								852
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/Requests/delete.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								607,
-								607
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "resources/views/Requests/PostForm.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								484,
-								484
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "resources/views/Requests/put.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1335,
+						"buffer_size": 3331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								601,
-								601
+								3331,
+								3331
 							]
 						],
 						"settings":
@@ -687,61 +563,27 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 1332.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "resources/views/Requests/GetForm.blade.php",
+					"buffer": 4,
+					"file": "app/Http/Controllers/RequestController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 449,
+						"buffer_size": 6914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "resources/views/Requests/post.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1337,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1034,
-								1034
+								4235,
+								4235
 							]
 						],
 						"settings":
@@ -754,32 +596,31 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2739.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "resources/views/Requests/welcome.blade.php",
-					"semi_transient": false,
+					"buffer": 5,
+					"file": "app/Request.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 709,
+						"buffer_size": 216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								520,
-								520
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"incomplete_sync": null,
 							"is_xml": false,
 							"remote_loading": false,
@@ -794,34 +635,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"buffer": 6,
+					"file": "resources/views/welcome.blade.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 57,
+						"buffer_size": 1806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1347,
+								1347
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -829,7 +672,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -870,7 +713,7 @@
 	"project": "apirt.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -920,7 +763,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 346.0,
+	"side_bar_width": 330.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
