@@ -1,8 +1,24 @@
-# APIRT
-API Response Tester
+# apirt
 
-## About
+## Project setup
+```
+npm install
+```
 
-APIRT was made to test how long does an endpoint takes to respond, currently only GET, POST, PUT and DELETE are available.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-[Visit APIRT!](http://www.apirt.com)
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
